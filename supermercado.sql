@@ -108,24 +108,24 @@
 --(8, 'Paulo Rocha', 'Brasília');
  
 --INSERT INTO Pedidos (Id, ClienteID, ProdutoID, Quantidade, PrecoVenda) VALUES
---(101, 1, 10, 1, 4500.00), -- Maria comprou Notebook
---(102, 1, 11, 2, 110.00),  -- Maria comprou 2 Ratos (com desconto)
---(103, 2, 12, 1, 950.00),  -- João comprou Monitor
---(104, 4, 13, 1, 350.00),  -- Ricardo comprou Teclado
---(105, 5, 15, 1, 2800.00), -- Beatriz comprou Smartphone
---(106, 1, 14, 1, 250.00),  -- Maria comprou Webcam
---(107, 6, 14, 1, 250.00),  -- Carlos comprou Webcam
---(108, 2, 11, 1, 120.00),  -- João comprou Rato
---(109, 7, 10, 1, 4300.00); -- Fernanda comprou Notebook (com desconto)
+--(101, 1, 10, 1, 4500.00), 
+--(102, 1, 11, 2, 110.00),  
+--(103, 2, 12, 1, 950.00), 
+--(104, 4, 13, 1, 350.00),  
+--(105, 5, 15, 1, 2800.00), 
+--(106, 1, 14, 1, 250.00), 
+--(107, 6, 14, 1, 250.00), 
+--(108, 2, 11, 1, 120.00),  
+--(109, 7, 10, 1, 4300.00); 
  
  
 --INSERT INTO Leads_Potenciais (Id, Nome, Email) VALUES
---(1, 'Maria Silva', 'maria@email.com'),     -- Já é cliente
---(2, 'João Pereira', 'joao@email.com'),     -- Já é cliente
---(3, 'Roberto Alves', 'roberto@test.com'),   -- Apenas Lead
---(4, 'Sónia Mendes', 'sonia@test.com'),     -- Apenas Lead
---(5, 'Lucas Neto', 'lucas@test.com'),       -- Apenas Lead
---(6, 'Daniela Paz', 'daniela@test.com');    -- Apenas Lead
+--(1, 'Maria Silva', 'maria@email.com'),     
+--(2, 'João Pereira', 'joao@email.com'),     
+--(3, 'Roberto Alves', 'roberto@test.com'),   
+--(4, 'Sónia Mendes', 'sonia@test.com'),     
+--(5, 'Lucas Neto', 'lucas@test.com'),       
+--(6, 'Daniela Paz', 'daniela@test.com');    
 
 --select
 	--ped.id pedido_id,
