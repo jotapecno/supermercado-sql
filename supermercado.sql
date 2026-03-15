@@ -45,7 +45,7 @@
 --values (3, 'Macarrao', '8721398123', 10.20, true);
 
 --select
-	prod.id, prod.descricao
+	--prod.id, prod.descricao
 --from
 --	produto as prod
 --order by id desc
