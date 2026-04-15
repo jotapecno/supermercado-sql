@@ -157,3 +157,61 @@
 	--ped.id pedido_id
 --from 
 	--produtos prod left join pedidos ped on ped.produtoid = prod.id
+
+--SELECT nome FROM clientes
+--UNION
+--SELECT nome FROM leads_potenciais;
+
+--SELECT nome FROM clientes
+--INTERSECT
+--SELECT nome FROM leads_potenciais;
+
+--SELECT nome FROM clientes
+--EXCEPT
+--SELECT nome FROM leads_potenciais;
+
+--SELECT 
+    --nome,
+    --UPPER(nome) AS nome_maiusculo,
+    --LOWER(nome) AS nome_minusculo,
+    --LENGTH(nome) AS tamanho_nome
+--FROM clientes;
+
+--SELECT 
+    --id,
+    --quantidade,
+    --precovenda,
+    --(quantidade * precovenda) AS total
+--FROM pedidos;
+
+--SELECT COUNT(*) AS total_pedidos
+--FROM pedidos;
+
+--SELECT SUM(quantidade * precovenda) AS total_vendas
+--FROM pedidos;
+
+--SELECT AVG(precovenda) AS media_preco
+--FROM pedidos;
+
+--SELECT 
+    --MAX(precovenda) AS maior_preco,
+    --MIN(precovenda) AS menor_preco
+--FROM pedidos;
+
+--SELECT 
+    --clienteid,
+    --SUM(quantidade * precovenda) AS total_gasto
+--FROM pedidos
+--GROUP BY clienteid;
+
+--SELECT 
+    --clienteid,
+    --COUNT(*) AS total_pedidos
+--FROM pedidos
+--GROUP BY clienteid;
+
+--SELECT 
+    --produtoid,
+    --AVG(precovenda) AS media_preco
+--FROM pedidos
+--GROUP BY produtoid;
